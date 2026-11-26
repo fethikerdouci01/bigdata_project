@@ -1,0 +1,8 @@
+[project]
+name = "bigdata-project"
+version = "0.1.0"
+description = "Pipeline de données sur les animés (Onyxia : S3, DuckDB, dbt, Kubernetes)"
+requires-python = ">=3.11"
+dependencies = [
+    "boto3>=1.34",
+]
