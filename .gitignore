@@ -1,0 +1,25 @@
+# Environnements Python
+.venv/
+__pycache__/
+*.pyc
+
+# Données locales (les données vivent sur S3)
+data/
+*.csv
+*.parquet
+*.duckdb
+*.duckdb.wal
+
+# dbt
+target/
+dbt_packages/
+logs/
+
+# Secrets
+.env
+*.secret
+credentials*
+
+# Système
+.DS_Store
+Thumbs.db
