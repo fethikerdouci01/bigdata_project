@@ -5,11 +5,16 @@ Pipeline de bout en bout sur Onyxia : stockage S3, transformation DuckDB/dbt, ex
 ## Auteurs
 
 - KERDOUCI Fethi
-- _à compléter_
+- OUCHRI Ines
 
 ## Prérequis
 
-_à compléter_
+- Un compte [Onyxia](https://datalab.sspcloud.fr) avec un service **VSCode-python** lancé (accès S3 et Kubernetes inclus).
+- Un bucket S3 personnel sur Onyxia (stockage objet MinIO).
+- [uv](https://docs.astral.sh/uv/) pour l'environnement Python (Python ≥ 3.11).
+- AWS CLI (`aws s3`) configurée avec les identifiants S3 fournis par Onyxia.
+- DuckDB et dbt-duckdb (installés via `uv sync`).
+- `kubectl` (préinstallé dans le service VSCode d'Onyxia).
 
 ## Dataset
 
